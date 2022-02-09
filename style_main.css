@@ -1,0 +1,98 @@
+
+body{
+    background-color: silver
+}
+.navbar li{
+    float: left;
+    margin: 12px 15px;  
+    font-size: 20px;
+    color: #ffffff;
+    padding-bottom:8px;
+
+}
+ul{
+    list-style: none;
+   
+}
+
+.navbar{
+    
+    background-color: #000000;
+    overflow:auto;
+    
+    border-radius: 5px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.search{
+    float: right;
+    padding: 12px 75px;
+ 
+    
+}
+.navbar li a:hover{
+    color: tomato;
+    
+}
+
+#top{ 
+    text-align: center;
+    font-style: bold;
+  
+}
+.notespace{
+   text-align: center;
+ 
+}
+#notespace{
+padding-bottom: 10px;
+}
+
+.AddN{
+   text-align: center;
+   
+}
+.AddN button{
+    color: #ffffff;
+    background-color: blue;
+    padding: 5px 10px;
+    border: 1px solid blue;
+    border-radius: 3px;
+ }
+ .AddN button:hover{
+    color: #ffffff;
+    background-color: green;
+    border: 1px solid green;
+ }
+.container h3{ 
+   text-align: center;
+}
+.container{
+    border: 2px solid purple;
+  width:61%;
+  margin: auto;
+  border-radius: 5px;
+ 
+}
+textarea{
+    background-color: rgb(228, 225, 222);
+    border:2px solid skyblue;
+    border-radius: 5px;
+}
+
+.mynote h3{
+    text-align: center;
+}
+
+.search button{
+    background-color: aqua;
+  
+}
+.search button:hover{
+    background-color:gold;
+   
+}
+

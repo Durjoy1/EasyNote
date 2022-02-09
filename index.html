@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Easy Notes</title>
+    <link rel="stylesheet" href="style_main.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <!-- <li id="logo">Easy Note</li> -->
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <div class="search">
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="search your note"
+              style="border:none;" title="Search Note!"
+            />
+            <button style="border:none;" title="Search Note!">search</button>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <br /><br />
+    <h2 id="top">Welcome to Easy Note</h2>
+    <div class="container">
+      <h3>Add Your Note</h3>
+      <div class="notespace">
+        <textarea
+          name="notespace"
+          id="notespace"
+          cols="93"
+          rows="15"
+          placeholder="Write Something......"
+        ></textarea>
+      </div>
+      <br />
+      <div class="AddN">
+        <button id="AddN" title="Add a Note">Save</button>
+      </div>
+      <br />
+    </div>
+
+    <br /><br />
+    <hr />
+    <h2 id="bottom" style="text-align:center">Your Note</h2>
+    <hr />
+    <div id="notes"></div>
+        
+
+    <script src="javascript.js"></script>
+    
+  </body>
+</html>
